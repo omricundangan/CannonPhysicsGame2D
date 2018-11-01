@@ -6,7 +6,7 @@ The player controls a cannon in a 2D space. The player can move the cannon withi
 
 ### Implementation
 Notable Implementations/Algorithms:
-* Axis-Aligned Bounding Box - Seperating Axes Theorem
+* Axis-Aligned Bounding Box - Separating Axes Theorem
 * Minimum Translation Vector
 * Very Basic Verlet Integration
 * 1D Perlin Noise Generation

@@ -12,7 +12,7 @@ Notable Implementations/Algorithms:
 * Very Basic Verlet Integration
 * 1D Perlin Noise Generation
 
-All of the 2D physics were written from scratch or using online references, meaning no Components provided from Unity aside from renderers are used for the physics. Cannonballs have custom rigidbodies written for them where the movement is accomplished by using a form of Verlet Integration and impulse forces are applicable to these rigidbodies for external forces. 
+All of the 2D physics were written from scratch or using online references, meaning no Components provided from Unity are used for the physics. Cannonballs have custom rigidbodies written for them where the movement is accomplished by using a form of Verlet Integration and impulse forces are applicable to these rigidbodies for external forces. 
 
 Collision detection is primitively done using Axis-Aligned Bounding Boxes making use of the Separating Axis Theorem, checking if the current object is intersecting with any of the collidable objects in the scene (the mountain and the wall) every update. The Minimum Translation Vector is obtained upon detecting a collision and is used in collision resolution.
 

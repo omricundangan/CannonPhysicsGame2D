@@ -8,7 +8,7 @@ The player controls a cannon in a 2D space. The player can move the cannon withi
 Notable Implementations/Algorithms:
 * Axis-Aligned Bounding Box - Seperating Axes Theorem
 * Minimum Translation Vector
-* Verlet Integration
+* Very Basic Verlet Integration
 * 1D Perlin Noise Generation
 
 All of the 2D physics were written from scratch or using online references, meaning no Components provided from Unity aside from renderers are used for the physics. Cannonballs have custom rigidbodies written for them where the movement is accomplished by using a form of Verlet Integration and impulse forces are applicable to these rigidbodies for external forces. 

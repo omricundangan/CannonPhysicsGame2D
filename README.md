@@ -1,4 +1,4 @@
-# CannonPhysicsGame2D
+# 2D Physics Cannon Minigame
 An implementation of 2D Physics in the form of a cannon mini-game in Unity and C#.
 
 ### Gameplay
